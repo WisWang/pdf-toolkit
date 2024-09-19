@@ -6,7 +6,7 @@ import ImageToPDFView from '../components/ImageToPDFView.vue'
 import AboutView from '../views/AboutView.vue'
 
 const routes = [
-  { path: '/', name: 'home', component: HomeView },
+  { path: '/', name: 'home', component: HomeView, meta: { title: 'pdf tool' } },
   { path: '/merge', name: 'merge', component: MergePDFView },
   { path: '/split', name: 'split', component: SplitPDFView },
   { path: '/imageToPDF', name: 'imageToPDF', component: ImageToPDFView },
