@@ -5,3 +5,11 @@
 </template>
 
 <script setup></script>
+<script>
+export default {
+  name: 'HomeView123',
+  mounted() {
+    document.title = 'Home - My Vue App'
+  }
+}
+</script>
